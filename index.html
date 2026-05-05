@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paul Chinedu – Product Designer & Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitcount+Prop+Single:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  <!-- EmailJS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Me....</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+
+    <!-- Decorative curved line SVG (Vector_1) spanning full width -->
+    <div class="hero-curve-wrap" aria-hidden="true">
+      <svg class="hero-curve" width="1440" height="650" viewBox="0 0 1440 650" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <path d="M-3.92491 715.902C-5.63566 718.07 -5.26526 721.214 -3.0976 722.925C-0.929932 724.636 2.21415 724.265 3.92491 722.098L0 719L-3.92491 715.902ZM440.612 627.001L439.613 622.102L440.612 627.001ZM1137.58 5.00648L1137.65 10.006L1137.58 5.00648ZM1440 447.002L1449.77 390.101L1395.61 410.087L1440 447.002ZM0 719L3.92491 722.098C84.3621 620.177 141.373 566.174 184.04 541.55C205.291 529.285 222.714 524.47 237.522 524.442C252.268 524.414 264.891 529.133 276.594 536.771C288.391 544.472 299.15 555.066 310.124 566.708C320.97 578.213 332.116 590.847 344.24 601.859C368.787 624.153 398.336 640.722 441.611 631.9L440.612 627.001L439.613 622.102C400.582 630.058 374.151 615.516 350.964 594.456C339.221 583.791 328.56 571.687 317.401 559.849C306.371 548.148 294.925 536.794 282.059 528.397C269.099 519.938 254.599 514.41 237.503 514.442C220.469 514.474 201.331 520.025 179.042 532.889C134.627 558.521 76.6379 613.823 -3.92491 715.902L0 719ZM440.612 627.001L441.611 631.9C528.616 614.164 606.732 566.085 677.118 504.322C747.506 442.558 810.426 366.873 866.999 293.558C923.721 220.049 973.82 149.265 1019.08 96.4466C1041.68 70.0801 1062.84 48.4726 1082.75 33.4248C1102.72 18.3373 1120.91 10.235 1137.65 10.006L1137.58 5.00648L1137.51 0.00695181C1117.7 0.278012 1097.43 9.80043 1076.73 25.4469C1055.97 41.1332 1034.26 63.3689 1011.49 89.9393C966.023 142.995 915.403 214.459 859.082 287.449C802.611 360.632 740.165 435.696 670.522 496.806C600.879 557.917 524.302 604.837 439.613 622.102L440.612 627.001ZM1137.58 5.00648L1137.65 10.006C1162.4 9.66746 1188.71 23.7106 1215.58 48.6503C1242.35 73.4939 1268.99 108.527 1294.33 148.694C1344.98 229 1389.89 328.979 1419.76 406.582L1424.42 404.786L1429.09 402.99C1399.1 325.067 1353.92 224.427 1302.78 143.359C1277.23 102.84 1250.05 66.9984 1222.38 41.3209C1194.82 15.7397 1166.09 -0.384051 1137.51 0.00695181L1137.58 5.00648Z" fill="#FF7300"/>
+      </svg>
+    </div>
+
+    <div class="hero-container" id="about">
+      <!-- LEFT CONTENT -->
+      <div class="hero-left">
+        <!-- Portfolio SVG logo (provided asset) -->
+        <div class="portfolio-svg-wrap">
+          <svg width="254" height="70" viewBox="0 0 254 70" fill="none" xmlns="http://www.w3.org/2000/svg" class="portfolio-svg">
+            <path d="M177.821 49.8254C203.913 65.7704 205.362 65.7704 228.555 49.8254" stroke="black" stroke-width="4.83182" stroke-linecap="round"/>
+            <path d="M191.834 64.3209C201.645 70.4441 207.147 70.1314 216.959 64.3209" stroke="black" stroke-width="1.93273" stroke-linecap="round"/>
+            <path d="M237.088 45.3615C233.826 45.3615 230.927 44.6568 228.39 43.2475C225.853 41.7978 223.84 39.8247 222.35 37.3281C220.9 34.8315 220.175 31.9927 220.175 28.8115C220.175 25.5901 220.9 22.7311 222.35 20.2345C223.84 17.6977 225.853 15.7246 228.39 14.3152C230.927 12.8656 233.826 12.1407 237.088 12.1407C240.349 12.1407 243.249 12.8656 245.785 14.3152C248.322 15.7246 250.315 17.6977 251.765 20.2345C253.255 22.7311 254 25.5901 254 28.8115C254 31.9927 253.255 34.8315 251.765 37.3281C250.315 39.8247 248.322 41.7978 245.785 43.2475C243.249 44.6568 240.349 45.3615 237.088 45.3615ZM237.088 37.9321C238.658 37.9321 240.067 37.5295 241.316 36.7241C242.564 35.9188 243.53 34.8315 244.215 33.4624C244.94 32.0933 245.282 30.543 245.242 28.8115C245.282 26.9995 244.94 25.4089 244.215 24.0398C243.53 22.6305 242.564 21.5432 241.316 20.7781C240.067 19.9728 238.658 19.5701 237.088 19.5701C235.517 19.5701 234.088 19.9728 232.799 20.7781C231.551 21.5835 230.564 22.6707 229.839 24.0398C229.155 25.4089 228.833 26.9995 228.873 28.8115C228.833 30.543 229.155 32.0933 229.839 33.4624C230.564 34.8315 231.551 35.9188 232.799 36.7241C234.088 37.5295 235.517 37.9321 237.088 37.9321Z" fill="#FF7300"/>
+            <path d="M204.331 44.7575V22.8566H212.781V44.7575H204.331ZM208.496 18.3439C206.87 18.3439 205.6 18.0679 204.688 17.5159C203.775 16.9639 203.319 16.1773 203.319 15.156C203.319 14.2176 203.775 13.4586 204.688 12.879C205.64 12.2718 206.929 11.9682 208.556 11.9682C210.143 11.9682 211.393 12.258 212.305 12.8376C213.217 13.3896 213.674 14.1624 213.674 15.156C213.674 16.1221 213.217 16.8949 212.305 17.4745C211.393 18.0541 210.123 18.3439 208.496 18.3439Z" fill="#FF7300"/>
+            <path d="M186.926 44.7575V16.2826H194.692V44.7575H186.926Z" fill="#FF7300"/>
+            <path d="M163.12 45.3615C159.858 45.3615 156.959 44.6568 154.422 43.2475C151.885 41.7978 149.872 39.8247 148.382 37.3281C146.932 34.8315 146.207 31.9927 146.207 28.8115C146.207 25.5901 146.932 22.7311 148.382 20.2345C149.872 17.6977 151.885 15.7246 154.422 14.3152C156.959 12.8656 159.858 12.1407 163.12 12.1407C166.381 12.1407 169.281 12.8656 171.818 14.3152C174.354 15.7246 176.348 17.6977 177.797 20.2345C179.287 22.7311 180.032 25.5901 180.032 28.8115C180.032 31.9927 179.287 34.8315 177.797 37.3281C176.348 39.8247 174.354 41.7978 171.818 43.2475C169.281 44.6568 166.381 45.3615 163.12 45.3615ZM163.12 37.9321C164.69 37.9321 166.1 37.5295 167.348 36.7241C168.596 35.9188 169.563 34.8315 170.247 33.4624C170.972 32.0933 171.314 30.543 171.274 28.8115C171.314 26.9995 170.972 25.4089 170.247 24.0398C169.563 22.6305 168.596 21.5432 167.348 20.7781C166.1 19.9728 164.69 19.5701 163.12 19.5701C161.549 19.5701 160.12 19.9728 158.831 20.7781C157.583 21.5835 156.596 22.6707 155.872 24.0398C155.187 25.4089 154.865 26.9995 154.905 28.8115C154.865 30.543 155.187 32.0933 155.872 33.4624C156.596 34.8315 157.583 35.9188 158.831 36.7241C160.12 37.5295 161.549 37.9321 163.12 37.9321Z" fill="#FF7300"/>
+            <path d="M128.266 44.7575V10.5703C128.266 8.55697 128.689 6.76506 129.534 5.19463C130.42 3.62419 131.648 2.3759 133.219 1.44974C134.789 0.483319 136.621 0.000106812 138.715 0.000106812C140.125 0.000106812 141.433 0.241713 142.641 0.724925C143.89 1.16787 144.977 1.79202 145.903 2.59737L143.306 8.93951C142.782 8.5771 142.259 8.29523 141.735 8.09389C141.212 7.89255 140.729 7.79188 140.286 7.79188C139.521 7.79188 138.876 7.91269 138.353 8.1543C137.83 8.3959 137.447 8.77844 137.205 9.30192C136.964 9.78513 136.843 10.3891 136.843 11.114V44.7575H132.554C131.669 44.7575 130.863 44.7575 130.138 44.7575C129.414 44.7575 128.789 44.7575 128.266 44.7575ZM123.434 20.899V13.5904H143.729V20.899H123.434Z" fill="black"/>
+            <path d="M106.572 44.7575V4.71135H115.149V44.7575H106.572ZM100.592 20.4761V12.8051H121.733V20.4761H100.592Z" fill="black"/>
+            <path d="M75.8271 44.7575V12.8052H84.1021L84.4041 23.0734L82.9545 20.8989C83.478 19.2882 84.2632 17.8185 85.3102 16.4896C86.3974 15.1608 87.6658 14.1139 89.1155 13.3488C90.6054 12.5434 92.1557 12.1407 93.7664 12.1407C94.4912 12.1407 95.1556 12.2012 95.7596 12.322C96.4039 12.4025 96.9475 12.5434 97.3904 12.7448L95.0952 22.107C94.6522 21.9056 94.0684 21.7244 93.3435 21.5634C92.659 21.362 91.9543 21.2614 91.2295 21.2614C90.3033 21.2614 89.4175 21.4426 88.5718 21.805C87.7665 22.1271 87.0417 22.6103 86.3974 23.2546C85.7934 23.8586 85.3102 24.5834 84.9478 25.429C84.6256 26.2747 84.4645 27.221 84.4645 28.2679V44.7575H75.8271Z" fill="black"/>
+            <path d="M52.4624 45.3615C49.2007 45.3615 46.3014 44.6568 43.7646 43.2475C41.2277 41.7978 39.2143 39.8247 37.7244 37.3281C36.2748 34.8315 35.55 31.9927 35.55 28.8115C35.55 25.5901 36.2748 22.7311 37.7244 20.2345C39.2143 17.6977 41.2277 15.7246 43.7646 14.3152C46.3014 12.8656 49.2007 12.1407 52.4624 12.1407C55.7241 12.1407 58.6233 12.8656 61.1602 14.3152C63.697 15.7246 65.6903 17.6977 67.1399 20.2345C68.6298 22.7311 69.3748 25.5901 69.3748 28.8115C69.3748 31.9927 68.6298 34.8315 67.1399 37.3281C65.6903 39.8247 63.697 41.7978 61.1602 43.2475C58.6233 44.6568 55.7241 45.3615 52.4624 45.3615ZM52.4624 37.9321C54.0328 37.9321 55.4422 37.5295 56.6905 36.7241C57.9388 35.9188 58.9052 34.8315 59.5897 33.4624C60.3146 32.0933 60.6568 30.543 60.6166 28.8115C60.6568 26.9995 60.3146 25.4089 59.5897 24.0398C58.9052 22.6305 57.9388 21.5432 56.6905 20.7781C55.4422 19.9728 54.0328 19.5701 52.4624 19.5701C50.8919 19.5701 49.4624 19.9728 48.1739 20.7781C46.9256 21.5835 45.939 22.6707 45.2142 24.0398C44.5297 25.4089 44.2075 26.9995 44.2478 28.8115C44.2075 30.543 44.5297 32.0933 45.2142 33.4624C45.939 34.8315 46.9256 35.9188 48.1739 36.7241C49.4624 37.5295 50.8919 37.9321 52.4624 37.9321Z" fill="black"/>
+            <path d="M0 44.7575V2.47652H17.9392C20.4761 2.47652 22.7512 3.08053 24.7646 4.28856C26.7779 5.45632 28.3685 7.06702 29.5363 9.12067C30.7443 11.134 31.3483 13.4293 31.3483 16.0064C31.3483 18.6238 30.7443 20.9996 29.5363 23.1338C28.3685 25.2277 26.7779 26.8988 24.7646 28.1471C22.7512 29.3551 20.4761 29.9591 17.9392 29.9591H9.06021V44.7575H0ZM8.9394 21.7446H16.9728C17.8989 21.7446 18.7446 21.503 19.5096 21.0197C20.2747 20.5365 20.8989 19.8721 21.3821 19.0265C21.8653 18.1809 22.1069 17.2145 22.1069 16.1272C22.1069 15.04 21.8653 14.0937 21.3821 13.2884C20.8989 12.483 20.2747 11.8387 19.5096 11.3555C18.7446 10.8723 17.8989 10.6307 16.9728 10.6307H8.9394V21.7446Z" fill="black"/>
+          </svg>
+        </div>
+
+        <p class="hero-desc">
+          A Computer Engineering student excited to create stunning designs for your websites
+          and social media pages, as well as build and develop apps and websites that truly stands out
+        </p>
+
+        <p class="hero-location">
+          <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#FF7300" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <em>Lagos, Nigeria</em>
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn-resume">Resume</a>
+          <a href="#contact" class="btn-hire">Hire Me</a>
+        </div>
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="hero-right">
+        <!-- Profile image in circle -->
+        <div class="profile-img-wrap">
+          <!-- Replace this src with your actual photo -->
+          <img src="IMG_2011.PNG" alt="Paul Chinedu" class="profile-img" id="profileImg"/>
+        </div>
+
+        <!-- Greeting + name block -->
+        <div class="hero-name-block">
+          <p class="hero-hello">Hello👋........</p>
+          <h2 class="hero-name">Paul Chinedu</h2>
+          <p class="hero-role">Product <span class="orange">Designer</span></p>
+          <p class="hero-role">&amp; <span class="orange">Developer</span></p>
+        </div>
+
+        <!-- Decorative bubbles (right edge) -->
+        <div class="bubbles-right" aria-hidden="true">
+          <svg width="150" height="100" viewBox="0 0 119 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="29" cy="84" r="29" fill="#FF7300"/>
+            <circle cx="82" cy="157" r="37" fill="#FF7300"/>
+            <circle cx="90" cy="29" r="29" fill="url(#paint0_linear_72_10)"/>
+            <defs>
+              <linearGradient id="paint0_linear_72_10" x1="61" y1="29" x2="90" y2="29" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#FF7300"/>
+                <stop offset="1" stop-color="#FFF3EB"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RECENT WORKS SECTION ========== -->
+  <section class="works-section" id="projects">
+    <div class="works-header">
+      <!-- Portfolio text with styled O -->
+      <p class="works-brand">
+        Portf<span class="wo-accent">oli</span>o
+        <svg class="works-underline-svg" width="80" height="8" viewBox="0 0 80 8"><path d="M0 6 Q20 0 40 6 Q60 12 80 6" stroke="#FF7300" stroke-width="2" fill="none"/></svg>
+      </p>
+      <h2 class="works-title">Some Recent Works</h2>
+    </div>
+
+    <!-- Slider wrapper -->
+    <div class="slider-outer">
+      <button class="slider-btn prev-btn" id="prevBtn" aria-label="Previous">&#8592;</button>
+
+      <div class="slider-viewport" id="sliderViewport">
+        <div class="slider-track" id="sliderTrack">
+
+          <!-- Project Card 1 -->
+          <div class="project-card" onclick="window.location.href='https://kgottero.github.io/Bolt-gadgets/';">
+            <!-- Replace with your actual project image -->
+            <img src="Boltgadgetspage.png" alt="Profile link card" class="card-img"/>
+            <div class="card-body">
+              <h3 class="card-title">Self-Project</h3>
+              <p class="card-subtitle">Profile link card</p>
+              <p class="card-desc">A simple, modern profile card with a centered avatar, bold name, subtle location, and clean social buttons—minimal, clear, and visually balanced.</p>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x200/f5f0e8/555555?text=Recipe+Page" alt="Recipe page" class="card-img"/>
+            <div class="card-body">
+              <h3 class="card-title">Self-Project</h3>
+              <p class="card-subtitle">Recipe page</p>
+              <p class="card-desc">A simple recipe page that shows how to make a perfect omelette with clear steps, ingredients, and quick tips—easy for anyone to follow.</p>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x200/e8f0ff/333333?text=Order+Summary" alt="Order summary component" class="card-img"/>
+            <div class="card-body">
+              <h3 class="card-title">Self-Project</h3>
+              <p class="card-subtitle">Order summary component</p>
+              <p class="card-desc">A clean order summary card that highlights a user's plan with clear details and simple visuals. The layout stays organized and easy to read for a smooth checkout experience.</p>
+            </div>
+          </div>
+
+          <!-- Project Card 4 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x200/fff3eb/FF7300?text=Landing+Page" alt="Landing page" class="card-img"/>
+            <div class="card-body">
+              <h3 class="card-title">Self-Project</h3>
+              <p class="card-subtitle">Landing page design</p>
+              <p class="card-desc">A vibrant, modern landing page with bold typography, strong call-to-action elements, and eye-catching layout for maximum conversion.</p>
+            </div>
+          </div>
+
+          <!-- Project Card 5 -->
+          <div class="project-card">
+            <img src="https://via.placeholder.com/300x200/e8ffe8/1a8a1a?text=Dashboard+UI" alt="Dashboard UI" class="card-img"/>
+            <div class="card-body">
+              <h3 class="card-title">Self-Project</h3>
+              <p class="card-subtitle">Dashboard UI</p>
+              <p class="card-desc">A clean analytics dashboard interface with charts, KPIs, and data tables—designed for clarity and fast decision-making.</p>
+            </div>
+          </div>
+
+        </div><!-- /slider-track -->
+      </div><!-- /slider-viewport -->
+
+      <button class="slider-btn next-btn" id="nextBtn" aria-label="Next">&#8594;</button>
+    </div><!-- /slider-outer -->
+
+    <div class="see-more-wrap">
+      <a href="#" class="btn-see-more">See More &#8594;</a>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <h2 class="contact-title">Contact me</h2>
+
+      <form class="contact-form" onsubmit="sendEmail(event)" novalidate>
+
+        <!-- Name row -->
+        <div class="form-label-group">
+          <label>Name <span class="req">(Required)</span></label>
+        </div>
+        <div class="form-row">
+          <div class="form-field">
+            <input type="text" id="firstName" placeholder="First Name" autocomplete="given-name"/>
+            <span class="field-line"></span>
+          </div>
+          <div class="form-field">
+            <input type="text" id="lastName" placeholder="Last Name" autocomplete="family-name"/>
+            <span class="field-line"></span>
+          </div>
+        </div>
+
+        <!-- Service -->
+        <div class="form-field full">
+          <label for="service">Service</label>
+          <input type="text" id="service" placeholder="e.g. UI/UX Design, Web Development…"/>
+          <span class="field-line"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="form-field full">
+          <label for="email">Email <span class="req">(Required)</span></label>
+          <input type="email" id="email" placeholder="your@email.com" autocomplete="email"/>
+          <span class="field-line"></span>
+        </div>
+
+        <!-- Project Description -->
+        <div class="form-field full">
+          <label for="message">Project Description</label>
+          <input type="text" id="message" placeholder="Tell me about your project…"/>
+          <span class="field-line"></span>
+        </div>
+
+        <button type="submit" class="btn-submit">Submit</button>
+
+      </form>
+
+      <!-- Social icons footer -->
+      <div class="social-icons">
+        <!-- Instagram -->
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
+          <img src="Instagram.svg">
+        </a>
+
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="social-link">
+          <img src="Group 3.svg">
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/+2340000000000" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link">
+          <img src="Whatsapp.svg">
+        </a>
+      </div><!-- /social-icons -->
+
+    </div><!-- /contact-container -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
