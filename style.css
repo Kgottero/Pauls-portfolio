@@ -135,6 +135,7 @@ ul { list-style: none; }
   top: 0; left: 0;
   width: 100%; height: 100%;
   opacity: 0.85;
+  display: none;
 }
 .hero-name-block{
   display: flex;
@@ -626,3 +627,4 @@ ul { list-style: none; }
 .project-card:nth-child(3) { animation-delay: 0.19s; }
 .project-card:nth-child(4) { animation-delay: 0.26s; }
 .project-card:nth-child(5) { animation-delay: 0.33s; }
+
